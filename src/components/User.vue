@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h3>Users:</h3>
-    <table class="table">
+    <v-simple-table>
       <thead>
         <tr>
           <th scope="col">Id</th>
@@ -18,7 +18,7 @@
           <td>{{ user.address.city }}</td>
         </tr>
       </tbody>
-    </table>
+    </v-simple-table>
   </div>
 </template>
 
@@ -40,7 +40,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 h3 {
   margin-bottom: 5%;
 }
