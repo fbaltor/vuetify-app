@@ -49,8 +49,6 @@ export default {
     Users,
   },
 
-  data: () => ({
-    //
-  }),
+  data: () => ({}),
 };
 </script>

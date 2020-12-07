@@ -1,7 +1,6 @@
 <template>
   <div class="container">
-    <h3>Users:</h3>
-    <v-simple-table>
+    <v-simple-table dark>
       <thead>
         <tr>
           <th scope="col">Id</th>
@@ -41,7 +40,4 @@ export default {
 </script>
 
 <style>
-h3 {
-  margin-bottom: 5%;
-}
 </style>
